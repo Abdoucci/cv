@@ -1,12 +1,20 @@
-.for{
+.Eta{
     color:blue;
 	text-align:center;
 }
-.exp{
+.form{
 	color:red;
 	text-align:left;
 }
-.comp{
+.exp{
 	color:green;
+	text-align:right;
+}
+.larg{
+	color:blue;
+	text-align:left;
+}
+.div{
+	color:red;
 	text-align:right;
 }
