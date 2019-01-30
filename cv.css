@@ -18,25 +18,4 @@
 	color:red;
 	text-align:right;
 }
-!-- MDL Progress Bar with Buffering -->
-<script>
-  document.querySelector('#p4').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(65);
-    this.MaterialProgress.setBuffer(80);
-  });
-</script>	                
 
-<!-- MDL Progress Bar with Buffering -->
-<script>
-  document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(85);
-    this.MaterialProgress.setBuffer(95);
-  });
-</script>
-
-<!-- Simple MDL Progress Bar -->
-<script>
-  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(80);
-  });
-</script>
