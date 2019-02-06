@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		<!-- Include material design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- include stylesheet from material design -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- include javascript needed for material design -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>	
+		
+		
+		
+		<!-- fichier javascript -->
+	<script type = "text/javascript" src = "java-cv.js" ></script>
+	
+	
+
+	
+	
+	<!-- Default Slider -->
+	<input class="mdl-slider mdl-js-slider" type="range" id="progress_bar"  oninput="myScroll(this.value)" min="0" max="100" value="0" tabindex="0">
+		
+		
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="cv.css"/>
 	</head>
 	<body>
+	
+	
 	<div>
 		<h1 class="Eta">Etat civil</h1>
 		<ul>
+	<div class="banniere"> <img id= "photo" src="photo pro.png" align="right" /></div>
 			<li>Nom : NACIB</li>
 			<li>Prénom :Mohamed Abdelkodous </li>	
                         <li>date de naissance : 12-05-1990</li>	
@@ -18,6 +42,7 @@
                  </ul>
         </div>
 	<div>
+	
 		<h1 class="form">Formation</h1>
 		                <h2>Diplôme école : Faculté des sciences et Technologies</h2>
 		                <ul> 
@@ -85,3 +110,4 @@
 	</div>
 	</body>
 </html>
+
